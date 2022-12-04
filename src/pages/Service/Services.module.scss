@@ -1,0 +1,59 @@
+.container {
+  border: solid 2px #023450;
+  border-radius: 20px;
+  padding: 12px;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-top: 14px;
+  height: auto;
+}
+.carousel {
+  margin-bottom: 8px;
+  filter: drop-shadow(0 0 0.1rem rgb(63, 63, 63));
+}
+
+.overflow {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7px;
+  margin-right: 7px;  
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  max-width: 310px;
+  max-height: 550px;
+  filter: drop-shadow(0 0 0.1rem rgb(63, 63, 63));
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px;
+}
+.text2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px;
+  color: gray;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px 10px 10px;
+}

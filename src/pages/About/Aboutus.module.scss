@@ -1,0 +1,103 @@
+.container {
+  border: solid 2px #023450;
+  border-radius: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    -225deg,
+    #023450 0%,
+    rgb(12, 99, 250) 50%,
+    rgb(39, 143, 255) 100%
+  );
+  margin-top: 14px;
+  flex-shrink: 1;
+}
+
+.animation {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #00a2ff, whitesmoke, #00a2ff);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  animation: shine 7s linear infinite;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+.paragraph {
+  font-size: 28px;
+}
+
+.aboutBox {
+  margin-top: 80px;
+  display: flex;
+  margin: 20px 20px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutInsideBox {
+  display: flex;
+  border: solid 1px #000000;
+  border-radius: 4px;
+
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+}
+
+.aboutInsideBox2 {
+  display: flex;
+  border: solid 1px #000000;
+  border-radius: 4px;
+
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  flex-direction: column;
+}
+
+.aboutInsideBox3 {
+  display: flex;
+  border: solid 1px #000000;
+  border-radius: 4px;
+
+  padding: 10px;
+  width: 250px;
+  height: 300px;
+  flex-direction: column;
+}
+
+.boxText {
+  margin-top: 10px;
+  color: rgb(184, 184, 184);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;;
+  margin: 8px auto;
+}
+
+.boxTitle {
+  color: rgb(235, 235, 235);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;;
+  margin: 8px auto;
+}

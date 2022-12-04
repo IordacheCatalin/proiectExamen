@@ -1,0 +1,78 @@
+.input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container {
+  border: solid 2px #023450;
+  border-radius: 20px;
+  padding: 12px;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-top: 14px;
+  }
+  .Link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+    background-color: #023450;
+    border: solid 2px #023450;
+    border-radius: 20px;
+    padding: 12px;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    gap:14px  
+  }
+  a {
+    color:white;
+    text-decoration: none;
+  }
+
+.contactInfo{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 49px;
+  display: flex;
+  gap:14px;
+  flex-direction: column;
+  
+  
+}
+.contactData{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+.responsive {
+ border:solid transparent;
+ border-radius: 20px;
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+  &.map {
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+  }
+}
+

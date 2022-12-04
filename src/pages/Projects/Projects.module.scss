@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    border: solid 2px #023450;
+    border-radius: 20px;
+    padding: 12px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+  .project {
+    max-width: 480px;
+    margin-bottom: 24px;
+  }
+  
+  .title {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: #023450;
+    color: white;
+
+    }
+
+    .description {
+      display: flex;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 5px;
+      justify-content: center;
+      color: rgb(146, 146, 146);
+      font-style: oblique;
+      margin-bottom: 24px;
+    }
+
+
+    tr:hover {background-color: #ddd;}
+
+    tr:nth-child(even){background-color: #f2f2f2;}
+
+    td {
+      border: 1px solid #ddd;
+      padding: 4px;
+      width: 20%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .techPrice {
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 500;
+
+    }

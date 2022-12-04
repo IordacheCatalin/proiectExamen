@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  border: solid 2px #023450;
+  border-radius: 20px;
+  padding: 12px;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-top: 14px;
+  flex-direction: row;
+  height: 90vh;
+  justify-content: space-between;
+  
+}
+
+.coinBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+}
+
+.cardBox {
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  max-width: 75%;
+  justify-content: center;
+}
+
+.coinBoxScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.cardBoxScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.search {
+  margin-bottom: 24px;
+}
+
+.coinInput {
+  font-family: "Roboto", sans-serif;
+  padding-left: 16px;
+  min-width: 20px;
+  height: 50px;
+  border-radius: 12px;
+  border: solid;
+  background-image: linear-gradient(
+    -225deg,
+    #023450 0%,
+    rgb(12, 99, 250) 50%,
+    rgb(39, 143, 255) 100%
+  );
+
+  color: whitesmoke;
+  &:hover {
+    background-image: linear-gradient(
+      -225deg,
+      #00395a 0%,
+      rgb(0, 70, 192) 50%,
+      rgb(0, 98, 202) 100%
+    );
+  }
+
+}
+
+::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+
+.coinContainer {
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  border: solid 1px #023450;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.coin {
+  flex-direction: column;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: -15px;
+}
+
+.coin img {
+  height: 20px;
+  width: 20px;
+  margin-right: -5px;
+}
+
+.coinLogo {
+  display: flex;
+  gap: 12px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.coinDetails {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.coinPercentRed {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.coinPercentGreen {
+  color: rgb(0, 161, 0);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.coinDetailsData {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .coinBox {
+    display: none;
+  }
+  .coinBoxScroll {
+    display: none;
+  }
+  .cardBox {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+  }
+}
