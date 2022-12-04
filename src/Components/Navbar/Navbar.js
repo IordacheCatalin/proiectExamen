@@ -69,7 +69,7 @@ const Navbar = () => {
           </div>
 
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/Home" >
+            <NavLink className="nav-link" to="/proiectExamen" >
               <i className="fa-solid fa-house-chimney-user"></i>Home
             </NavLink>
           </li>
