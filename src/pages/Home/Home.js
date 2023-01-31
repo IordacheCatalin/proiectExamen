@@ -31,11 +31,12 @@ function Home() {
 
   return (
     <>
+    <News></News>
       <div className={styles.container}>
         <div className={styles.cardBox}>
           <div className={styles.cardBoxScroll}>
             <div>
-              <News />
+              
             </div>
           </div>
         </div>
