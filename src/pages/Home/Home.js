@@ -51,9 +51,7 @@ function Home() {
         <div className={styles.cardBox}>
           <div className={styles.cardBoxScroll}>
             <div>
-            <>
-             
-            {news.map((value) => {
+          {news.map((value) => {
               return (
               <div className={styles.cardContainer}>
                 <div className="card" key="{item}">
@@ -75,9 +73,6 @@ function Home() {
               </div>
               );
             })}
-          
-       
-    </>
             </div>
           </div>
         </div>
