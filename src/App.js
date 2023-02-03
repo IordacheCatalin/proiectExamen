@@ -12,7 +12,7 @@ import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
       <Routes>
       <Route path="/proiectExamen" element={<Home />} />
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 };
 
