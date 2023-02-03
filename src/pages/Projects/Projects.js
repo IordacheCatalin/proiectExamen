@@ -26,6 +26,7 @@ function ProjectsPC() {
                 <div className={styles.techPrice}>Technical specification</div>
 
                 <table>
+                  <tbody>
                   <tr>
                     <td>Procesor</td>
                     <td>{project.procesor}</td>
@@ -52,7 +53,7 @@ function ProjectsPC() {
 
                   <tr>
                     <td>Power supply</td>
-                    <div>{project.sursa}</div>
+                    <td>{project.sursa}</td>
                     <td>Specification Data</td>
                   </tr>
 
@@ -67,6 +68,7 @@ function ProjectsPC() {
                     <td>{project.racire}</td>
                     <td>Specification Data</td>
                   </tr>
+                  </tbody>
                 </table>
               </div>
 
